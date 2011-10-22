@@ -1,14 +1,17 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<title>Basic PHP Page</title>
-</head>
-<body>
-	<!-- Script 1.2 - first.php -->
-	<p>This is standard HTML.</p>
-<?php
-echo 'This is Git-Repo'
+<?php # Script 3.4 - index.php
+$page_title = 'Welcome to this Site!';
+include ('./includes/header.html');
 ?>
-</body>
-</html>
+<h1 id="mainhead">Big Header</h1>
+<p>This is where you'll put the main page content. This content will differ for each page.</p>
+<p>This is where you'll put the main page content. This content will differ for each page.</p>
+<p>This is where you'll put the main page content. This content will differ for each page.</p>
+<p>This is where you'll put the main page content. This content will differ for each page.</p>
+<h2>Subheader</h2>
+<p>This is where you'll put the main page content. This content will differ for each page.</p>
+<p>This is where you'll put the main page content. This content will differ for each page.</p>
+<p>This is where you'll put the main page content. This content will differ for each page.</p>
+<p>This is where you'll put the main page content. This content will differ for each page.</p>
+<?php
+include ('./includes/footer.html');
+?>
