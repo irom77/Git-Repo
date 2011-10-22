@@ -5,7 +5,7 @@
 // selects the database, and sets the encoding.
 
 // Set the database access information as constants:
-DEFINE ('DB_USER', 'db_72afe4fb');
+DEFINE ('DB_USER', 'user_72afe4fb');
 DEFINE ('DB_PASSWORD', 'r3ZLra$zqpB;ab');
 DEFINE ('DB_HOST', '10.194.111.8');
 DEFINE ('DB_NAME', 'db_72afe4fb');
